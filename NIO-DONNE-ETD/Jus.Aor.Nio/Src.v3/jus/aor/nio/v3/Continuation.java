@@ -35,8 +35,8 @@ public abstract class Continuation{
 	 * @return the buffer of the in value i.
 	 */
 	protected static final ByteBuffer intToBytes(int i){
-    ByteBuffer buffer = ByteBuffer.allocate(4); 
-    buffer.putInt(i); buffer.position(0);
-    return buffer;
+		ByteBuffer buffer = ByteBuffer.allocate(4); 
+		buffer.putInt(i); buffer.position(0);
+		return buffer;
 	}
 }
